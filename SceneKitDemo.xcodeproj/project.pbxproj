@@ -13,6 +13,8 @@
 		B4AF545D2C02F17600CD96AE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B4AF545C2C02F17600CD96AE /* Base */; };
 		B4AF545F2C02F17800CD96AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AF545E2C02F17800CD96AE /* Assets.xcassets */; };
 		B4AF54622C02F17800CD96AE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B4AF54612C02F17800CD96AE /* Base */; };
+		B4AF546B2C02F60C00CD96AE /* Lowpoly_tree_sample.mtl in Resources */ = {isa = PBXBuildFile; fileRef = B4AF54692C02F60C00CD96AE /* Lowpoly_tree_sample.mtl */; };
+		B4AF546C2C02F60C00CD96AE /* Lowpoly_tree_sample.obj in Resources */ = {isa = PBXBuildFile; fileRef = B4AF546A2C02F60C00CD96AE /* Lowpoly_tree_sample.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B4AF545E2C02F17800CD96AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4AF54612C02F17800CD96AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4AF54632C02F17800CD96AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4AF54692C02F60C00CD96AE /* Lowpoly_tree_sample.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lowpoly_tree_sample.mtl; sourceTree = "<group>"; };
+		B4AF546A2C02F60C00CD96AE /* Lowpoly_tree_sample.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lowpoly_tree_sample.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		B4AF54542C02F17600CD96AE /* SceneKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B4AF546D2C02F61700CD96AE /* Resources */,
 				B4AF54552C02F17600CD96AE /* AppDelegate.swift */,
 				B4AF54572C02F17600CD96AE /* SceneDelegate.swift */,
 				B4AF54592C02F17600CD96AE /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				B4AF54632C02F17800CD96AE /* Info.plist */,
 			);
 			path = SceneKitDemo;
+			sourceTree = "<group>";
+		};
+		B4AF546D2C02F61700CD96AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4AF54692C02F60C00CD96AE /* Lowpoly_tree_sample.mtl */,
+				B4AF546A2C02F60C00CD96AE /* Lowpoly_tree_sample.obj */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AF546B2C02F60C00CD96AE /* Lowpoly_tree_sample.mtl in Resources */,
 				B4AF545F2C02F17800CD96AE /* Assets.xcassets in Resources */,
+				B4AF546C2C02F60C00CD96AE /* Lowpoly_tree_sample.obj in Resources */,
 				B4AF54622C02F17800CD96AE /* Base in Resources */,
 				B4AF545D2C02F17600CD96AE /* Base in Resources */,
 			);
